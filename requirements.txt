@@ -16,4 +16,8 @@ Git
         1. ----------- + ---   Pool Request (совмещение)
         2. -------------- | (копия для команды)
 
-Коммит
+
+Git command
+git add .
+git commit -m "Комментарий"
+git push origin master
