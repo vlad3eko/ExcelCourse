@@ -1,9 +1,0 @@
-Git command:
-    git add .
-    git commit -m "Комментарий"
-    git push origin название.ветки
-
-Webpack plugin:
-HtmlWebpackPlugin
-CopyWebpackPlugin
-Clean plugin
