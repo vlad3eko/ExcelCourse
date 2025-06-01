@@ -17,7 +17,3 @@ Git
         2. -------------- | (копия для команды)
 
 
-Git command:
-    git add .
-    git commit -m "Комментарий"
-    git push origin название.ветки
