@@ -4,7 +4,12 @@ module.exports = {
 	context: path.resolve(__dirname, 'src'),
 	entry: './index.js',
 	output: {
-		filename: 'bundle.js',
+		// hash = autoload new version
+		filename: 'bundle.[hash].js',
 		path: path.resolve(__dirname, 'dist')
-	}
+	},
+	// Add plug for HTML
+	plugins: [
+
+	]
 }
