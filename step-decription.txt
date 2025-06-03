@@ -1,0 +1,23 @@
+Git command:
+    git add .
+    git commit -m "сomment"
+    git push origin name.branch
+
+Webpack plugin:
+    HtmlWebpackPlugin
+    CopyWebpackPlugin
+    Clean plugin
+    MiniCssExtractPlugin
+
+File package.json:
+    git init
+        - added: {
+                "start": "webpack",
+                "build": "webpack --mode production"
+        }
+
+Use Webpack plugins on webpack.config.js:
+    HtmlWebpackPlugin
+    CopyWebpackPlugin
+    Clean plugin
+    MiniCssExtractPlugin = CSS in HTML
