@@ -16,7 +16,8 @@
     "quotes": "off",
     "eol-last": "off",
     "require-jsdoc": "off",
-    "no-multiple-empty-lines": "off"
+    "no-multiple-empty-lines": "off",
+    "no-unused-vars": "off",
   },
   "extends": ["eslint:recommended", "google"]
 }

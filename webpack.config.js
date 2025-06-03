@@ -31,7 +31,7 @@ const jsLoaders = () => {
 
 module.exports = {
 	context: path.resolve(__dirname, 'src'),
-	entry: ['babel/polyfill', './index.js'],
+	entry: ['@babel/polyfill', './index.js'],
 	output: {
 		// hash = autoload new version
 		filename: fileName('js'),
