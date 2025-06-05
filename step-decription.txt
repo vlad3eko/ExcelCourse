@@ -21,3 +21,6 @@ Use Webpack plugins on webpack.config.js:
     CopyWebpackPlugin
     Clean plugin
     MiniCssExtractPlugin = CSS in HTML
+
+03.06.25
+    Pull request branch webpack to branch master

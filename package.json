@@ -27,6 +27,7 @@
   "browserslist": "> 0.25%, not dead",
   "devDependencies": {
     "@babel/core": "^7.27.4",
+    "@babel/eslint-parser": "^7.27.5",
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.27.2",
     "babel-eslint": "^10.1.0",
@@ -48,12 +49,11 @@
     "webpack-dev-server": "^5.2.1"
   },
   "dependencies": {
-    "16": "^0.0.2",
-    "18": "^0.0.0",
+    "@material/web": "^2.3.0",
     "babel": "^6.23.0",
     "babel-polyfill": "^6.26.0",
-    "css": "^3.0.0",
-    "nvm": "^0.0.4",
-    "scss-loader": "^0.0.1"
+    "build": "^0.1.4",
+    "normalize.css": "^8.0.1",
+    "run": "^1.5.0"
   }
 }
