@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open",
-    "build": "cross-env NODE_ENV=production webpack --mode production"
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "lint": "prettier . --check",
+    "lint:fix": "prettier --write --list-different ."
   },
   "repository": {
     "type": "git",
@@ -28,10 +30,10 @@
   "devDependencies": {
     "@babel/core": "^7.27.4",
     "@babel/eslint-parser": "^7.27.5",
-    "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.27.2",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^10.0.0",
+    "babel-polyfill": "^6.26.0",
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^13.0.0",
     "cross-env": "^7.0.3",
@@ -42,6 +44,8 @@
     "html-webpack-plugin": "^5.6.3",
     "mini-css-extract-plugin": "^2.9.2",
     "node-sass": "^9.0.0",
+    "pretier": "^0.0.1",
+    "prettier": "^3.5.3",
     "sass": "^1.89.1",
     "sass-loader": "^10.5.2",
     "webpack": "^5.99.9",
@@ -51,7 +55,6 @@
   "dependencies": {
     "@material/web": "^2.3.0",
     "babel": "^6.23.0",
-    "babel-polyfill": "^6.26.0",
     "build": "^0.1.4",
     "normalize.css": "^8.0.1",
     "run": "^1.5.0"

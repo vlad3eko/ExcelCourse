@@ -1,9 +1,9 @@
-import {ExcelComponent} from "../../core/ExcelComponent";
+import { ExcelComponent } from '../../core/ExcelComponent'
 
 export class Toolbar extends ExcelComponent {
-	static className = 'excel__toolbar'
-	toHTML() {
-		return `
+  static className = 'excel__toolbar'
+  toHTML() {
+    return `
 	   <div class="button">
   <span class="material-symbols-outlined">
    format_bold
@@ -35,5 +35,5 @@ export class Toolbar extends ExcelComponent {
   </span>
    </div>
 	`
-	}
+  }
 }

@@ -1,10 +1,10 @@
-import {ExcelComponent} from "../../core/ExcelComponent";
+import { ExcelComponent } from '../../core/ExcelComponent'
 
 export class Table extends ExcelComponent {
-	static className = 'excel__table'
+  static className = 'excel__table'
 
-	toHTML() {
-		return `
+  toHTML() {
+    return `
 		   <div class="row">
 
     <div class="row-info"></div>
@@ -47,5 +47,5 @@ export class Table extends ExcelComponent {
     </div>
    </div>
 		`
-	}
+  }
 }

@@ -17,7 +17,11 @@
     "eol-last": "off",
     "require-jsdoc": "off",
     "no-multiple-empty-lines": "off",
-    "no-unused-vars": "off"
+    "no-unused-vars": "off",
+    "no-debugger": "off",
+    "operator-linebreak": "off",
+    "object-curly-spacing": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }
+
