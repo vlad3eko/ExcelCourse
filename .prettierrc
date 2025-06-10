@@ -16,5 +16,6 @@
   "useTabs": false,
   "tabWidth": 2,
   "embeddedLanguageFormatting": "auto",
-  "experimentalTernaries": true
+  "experimentalTernaries": true,
+  "endOfLine": "crlf"
 }
