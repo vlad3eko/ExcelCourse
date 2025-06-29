@@ -1,4 +1,4 @@
-import { ExcelComponent } from '../../core/ExcelComponent'
+import { ExcelComponent } from 'core/ExcelComponent'
 
 export class Toolbar extends ExcelComponent {
   static className = 'excel__toolbar'
@@ -23,10 +23,30 @@ export class Toolbar extends ExcelComponent {
   </span>
    </div>
    <div class="button">
-   <span class="material-symbols-outlined">
-   format_underlined
-  </span>
+    <span class="material-symbols-outlined">
+     strikethrough_s
+    </span>
    </div>
+   <div class="button">
+   <span class="material-symbols-outlined">
+      text_format
+    </span>
+  </div>
+   <div class="button">
+    <span class="material-symbols-outlined">
+     colors
+    </span>
+  </div>
+  <div class="button">
+  <span class="material-symbols-outlined">
+  border_all
+  </span>
+  </div>
+    <div class="button">
+  <span class="material-symbols-outlined">
+  vertical_align_bottom
+  </span>
+  </div>
    <div class="button">
    <span class="material-symbols-outlined">
    format_align_left
