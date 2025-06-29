@@ -12,7 +12,7 @@
   .row {
     display: flex;
     flex-direction: row;
-    min-height: 20px;
+    min-height: 24px;
     height: $row-height;
   }
   .row-info {
@@ -57,7 +57,7 @@
     outline: none;
     &.selected {
       border: none;
-      outline: 2px solid $primary-color;
+      outline: 1.5px solid $primary-color;
       z-index: 2;
     }
   }
