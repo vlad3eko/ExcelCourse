@@ -1,17 +1,23 @@
 // Pure functions
 export function capitalize(string) {
   if (typeof string !== 'string') {
-    return 'fail'
-  } else {
-    return string.charAt(0).toUpperCase() + string.slice(1)
+    return ''
   }
+  return string.charAt(0).toUpperCase() + string.slice(1)
 }
 
 export function range(start, end) {
   if (start > end) {
-    /* eslint-disable */
-    ;[end, start] = [start, end]
-    /* eslint-disable */
+    [end, start] = [start, end]
   }
-  return new Array(end - start + 1).fill('').map((_, index) => start + index)
+  return new Array(end - start + 1)
+      .fill('')
+      .map((_, index) => start + index)
+}
+
+export function storage(key, data = null) {
+  if (!data) {
+    return JSON.parse(localStorage.getItem(key))
+  }
+  localStorage.setItem(key, JSON.stringify(data))
 }

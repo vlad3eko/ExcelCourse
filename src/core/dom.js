@@ -1,7 +1,8 @@
 class Dom {
   constructor(selector) {
-    // #app
-    this.$el = typeof selector === 'string' ? document.querySelector(selector) : selector
+    this.$el = typeof selector === 'string'
+      ? document.querySelector(selector)
+      : selector
   }
 
   html(html) {
@@ -71,7 +72,11 @@ class Dom {
   }
 
   css(styles = {}) {
-    Object.keys(styles).forEach((key) => (this.$el.style[key] = styles[key]))
+    Object
+        .keys(styles)
+        .forEach(key => {
+          this.$el.style[key] = styles[key]
+        })
   }
 
   id(parse) {
@@ -79,7 +84,7 @@ class Dom {
       const parsed = this.id().split(':')
       return {
         row: +parsed[0],
-        col: +parsed[1],
+        col: +parsed[1]
       }
     }
     return this.data.id
@@ -89,6 +94,7 @@ class Dom {
     this.$el.focus()
     return this
   }
+
   addClass(className) {
     this.$el.classList.add(className)
     return this
@@ -100,15 +106,12 @@ class Dom {
   }
 }
 
-// event.target
-
 export function $(selector) {
   return new Dom(selector)
 }
 
 $.create = (tagName, classes = '') => {
   const el = document.createElement(tagName)
-
   if (classes) {
     el.classList.add(classes)
   }

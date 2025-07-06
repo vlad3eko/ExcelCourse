@@ -1,5 +1,5 @@
-@import 'variables';
-@import 'mixins';
+@import "variables";
+@import "mixins";
 
 .excel__header {
   position: absolute;
@@ -11,16 +11,16 @@
   display: flex;
   justify-content: space-between;
 
-  .input {
+  & .input {
     margin: 0;
     padding: 2px 7px;
     min-width: 1px;
-    color: black;
+    color: #000;
     border: 1px solid transparent;
     border-radius: 2px;
     height: 20px;
     font-size: 18px;
-    line-height: 22;
+    line-height: 22px;
     outline: none;
 
     &:hover {
@@ -35,4 +35,5 @@
   .button {
     @include button(red);
   }
+
 }
