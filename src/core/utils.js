@@ -8,11 +8,11 @@ export function capitalize(string) {
 
 export function range(start, end) {
   if (start > end) {
-    [end, start] = [start, end]
+    /* eslint-disable */
+    ;[end, start] = [start, end]
+    /* eslint-disable */
   }
-  return new Array(end - start + 1)
-      .fill('')
-      .map((_, index) => start + index)
+  return new Array(end - start + 1).fill('').map((_, index) => start + index)
 }
 
 export function storage(key, data = null) {
@@ -20,4 +20,11 @@ export function storage(key, data = null) {
     return JSON.parse(localStorage.getItem(key))
   }
   localStorage.setItem(key, JSON.stringify(data))
+}
+
+export function isEqual(a, b) {
+  if (typeof a === 'object' && b === 'object') {
+    return JSON.stringify(a) === JSON.stringify(b)
+  }
+  return a === b
 }

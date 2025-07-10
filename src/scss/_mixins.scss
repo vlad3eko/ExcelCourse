@@ -13,6 +13,7 @@
 
   &:active, &.active {
     color: $color;
+    background-color: rgba(0, 128, 000, 0.2);
   }
 
   &:hover {
