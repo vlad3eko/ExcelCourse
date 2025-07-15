@@ -5,22 +5,23 @@
   text-align: center;
   position: relative;
   display: inline-block;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, .7);
 
-  & span {
+  & i {
     font-size: 18px;
   }
 
-  &:active,
-  &.active {
+  &:active, &.active {
     color: $color;
+    background-color: rgba(0, 128, 000, 0.2);
   }
 
   &:hover {
-    background-color: #eee;
+    background: #eee;
     cursor: pointer;
   }
 }
+
 
 @mixin clear-list() {
   list-style: none;

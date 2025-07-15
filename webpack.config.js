@@ -40,7 +40,7 @@ module.exports = {
     // reduction path for file\folder
     alias: {
       '@': path.resolve(__dirname, 'src'),
-      core: path.resolve(__dirname, 'src/core'),
+      '@core': path.resolve(__dirname, 'src/core'),
     },
   },
   devtool: isDev ? 'source-map' : false,
