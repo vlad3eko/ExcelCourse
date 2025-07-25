@@ -1,19 +1,19 @@
 "npm run start" on temrminal.
 
-/* */
+\
 
-/* */
+\
 
-/* */
+\
 
 
-Project stack:
+About proj.
 
-/* */
+/
 
-/* */
+/
 
-/* */
+/
 
 Webpack
 
