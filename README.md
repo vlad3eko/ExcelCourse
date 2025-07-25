@@ -1,4 +1,4 @@
-"npm run start" on temrminal.
+NPM RUN START
 
 \
 
