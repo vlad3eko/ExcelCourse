@@ -9,4 +9,4 @@ Redux
 Product engineering
 Scss
 Git commit's
-...and a lot of other things
+...and a lot of other things.
