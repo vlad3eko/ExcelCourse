@@ -1,5 +1,5 @@
 # 💫 About Me:
-I am a beginner frontend developer.<br><br>Learning to develop my own business ideas.<br><br>Learning tools:<br>Vue 2\3<br>Nuxt 2\3<br>TypeScript<br>Webpack<br>Litter<br>Pretier<br>Algorithms and data structure.
+I am a beginner frontend developer.<br><br>Learning to develop my own business ideas.<br><br>Learning tools:<br>Vue 2\3<br>Nuxt 2\3<br>TypeScript<br>Webpack<br>Eslint<br>Pretier<br>Algorithms and data structure.
 
 
 ## 🌐 Socials:
